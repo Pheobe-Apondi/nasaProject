@@ -225,3 +225,22 @@ body{
 
 }
 
+.site-footer {
+  background: rgba(0, 0, 0, 0.85);
+  color: #aaa;
+  text-align: center;
+  padding: 2rem 1rem;
+  margin-top: 3rem;
+  border-top: 1px solid #333;
+  font-size: 0.9rem;
+}
+
+.site-footer a {
+  color: #00ccff;
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
+  color: #ffffff;
+}
