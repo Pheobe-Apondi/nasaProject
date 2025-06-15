@@ -13,8 +13,6 @@ Users can like/save images to their browser’s local storage.
 ## Favorites Section
 View all your saved NASA photos in one place.
 
-## Responsive Star-Themed Design
-Fully mobile-friendly layout with a galaxy-inspired background.
 
 
 ## Live Demo
