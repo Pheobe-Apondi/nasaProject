@@ -1,16 +1,16 @@
-# 🛰️ Space Explorer — NASA Real-Time Feed
+# Space Explorer — NASA Real-Time Feed
 
 Welcome to Space Explorer, a space-themed web dashboard that connects directly with NASA’s public APIs to showcase the wonders of the universe in real-time.
 
-## 🚀 Features
+## Features
 
-🌌 Astronomy Picture of the Day (APOD)
+## Astronomy Picture of the Day (APOD)
 Automatically fetches and displays NASA's daily space photo.
 
-## 🔭 Like Your Favorite Images
+## Like Your Favorite Images
 Users can like/save images to their browser’s local storage.
 
-##  Favorites Section
+## Favorites Section
 View all your saved NASA photos in one place.
 
 ## Responsive Star-Themed Design
