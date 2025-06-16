@@ -3,11 +3,6 @@ const apodUrl= 'https://api.nasa.gov/planetary/apod?api_key=pbds0fTDZhOfIBHhe8G5
 const marsUrl=`https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1300&api_key=pbds0fTDZhOfIBHhe8G5L5fzvSRJrfILJPKgJyOv`
 
 
-
-
-
-
-
 async function fetchApod(){
     try{
         const response = await fetch (apodUrl)
