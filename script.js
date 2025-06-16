@@ -1,13 +1,10 @@
 const apodUrl= 'https://api.nasa.gov/planetary/apod?api_key=pbds0fTDZhOfIBHhe8G5L5fzvSRJrfILJPKgJyOv'
-// let currentSol  = 1300
+
 let currentSol = 1000;
 
-<<<<<<< HEAD
-const marsUrl=`https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1300&api_key=pbds0fTDZhOfIBHhe8G5L5fzvSRJrfILJPKgJyOv`
-=======
 const marsUrl=`https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=${currentSol}&api_key=pbds0fTDZhOfIBHhe8G5L5fzvSRJrfILJPKgJyOv`
 
->>>>>>> d458ccff2369e8ac55a71b54aeb67660c9e53cb7
+
 
 
 async function fetchApod(){
@@ -33,13 +30,7 @@ async function fetchApod(){
     }
 }
 
-
 fetchApod()
-
-
-
-
-
 
 let isLoading = false; 
 async function fetchNextSolWithPhotos() {

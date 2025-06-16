@@ -232,10 +232,41 @@ body{
         margin-top: 5em;
 
 }
+.footers {
+  background: rgba(0, 0, 0, 0.85);
+  color: #aaa;
+  text-align: center;
+  padding: 2rem 1rem;
+  margin-top: 3rem;
+  border-top: 1px solid #333;
+  font-size: 0.9rem;
+}
+
+.footers a {
+  color: #00ccff;
+  text-decoration: none;
+}
+
+.footers a:hover {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+#clearFavouritesButton{
+    margin-top: 20em;
+    padding: 10px;
+    width: 10em;
+}
+
+
+
 @media screen and (max-width:480px) {
     body{
    width: 99%;
-   background-size: cover;
+   /* background-size: 99%; */
+    }
+    #clearFavouritesButton{
+        margin-left: -75vw;
     }
     #apodImage{
        
@@ -248,7 +279,7 @@ width: 98%;
     }
    
     #apod{
-margin-top: 80%;
+margin-top: 40%;
         h1,h2{
             font-size: 100%;
     
@@ -296,31 +327,4 @@ width: 98%;
   
  
 }
-
-.footers {
-  background: rgba(0, 0, 0, 0.85);
-  color: #aaa;
-  text-align: center;
-  padding: 2rem 1rem;
-  margin-top: 3rem;
-  border-top: 1px solid #333;
-  font-size: 0.9rem;
-}
-
-.footers a {
-  color: #00ccff;
-  text-decoration: none;
-}
-
-.footers a:hover {
-  text-decoration: underline;
-  color: #ffffff;
-}
-
-#clearFavouritesButton{
-    margin-top: 20em;
-    padding: 10px;
-    width: 10em;
-}
-
 
