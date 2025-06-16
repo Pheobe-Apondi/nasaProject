@@ -77,7 +77,7 @@ function displayMarsImages(photos) {
             likeBtn.classList.toggle('liked');
             const icon = likeBtn.querySelector('i');
             const isLiked = likeBtn.classList.contains('liked');
-            icon.style.color = isLiked ? '#d72d0f' : '#e0e4eb';
+            icon.style.color = isLiked ? 'red' : 'white';
             if (isLiked) saveFavourites(photo);
         });
         card.appendChild(img);
