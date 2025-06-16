@@ -232,6 +232,7 @@ body{
         margin-top: 5em;
 
 }
+
 .footers {
   background: rgba(0, 0, 0, 0.85);
   color: #aaa;
@@ -256,75 +257,5 @@ body{
     margin-top: 20em;
     padding: 10px;
     width: 10em;
-}
-
-
-
-@media screen and (max-width:480px) {
-    body{
-   width: 99%;
-   /* background-size: 99%; */
-    }
-    #clearFavouritesButton{
-        margin-left: -75vw;
-    }
-    #apodImage{
-       
-width: 93%;
-margin-left: 3%;
-    }
-    .backgroundVideo{
-width: 98%;
-
-    }
-   
-    #apod{
-margin-top: 40%;
-        h1,h2{
-            font-size: 100%;
-    
-        }
-    }
-    #favouriteImageHeading{
-        font-size: 10%;
-
-
-    }
-
-    #description{
-margin-left: 3%;
-width: 93vw;
-font-size: 0.6em;
-
-    }
-  #typing-text{
-    font-size: 1em;
-     margin-left: 15%;
-     
-  }
-  #contentSubheading{
-    font-size: 1em;
-     width: 97%;
-  }
- #marsHeading{
-font-size: 1.5em;
-width: 130vw;
-margin-top: 50vh;
-margin-left: -25%;
-  }
-  #marsImagesContainer{
-    margin-left: 14%;
-    margin-top: 85%;
-  }
-  #favoriteImagesHeading{
-    font-size: 1.5em;
-    width: 100vw;
-    margin-left: -80vw;
-  }
- #footer{
-width: 98%;
-  }
-  
- 
 }
 
