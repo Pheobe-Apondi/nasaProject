@@ -16,7 +16,7 @@
 <body>
     <header>
         <ul>
-            
+
         </ul>
     </header>
     <div class="backgroundVideo">
@@ -38,7 +38,7 @@
         <h1 id="apodHeading">Astronomy Picture of the Day</h1>
                <h2 id="title"></h2>
                  <p id="date"></p>
-            <img id="apodImage" alt="NASA Astronomy Picture of the Day">
+          <img id="apodImage" alt="NASA Astronomy Picture of the Day">
        <p id="description"></p>
         </div>
 
@@ -46,6 +46,11 @@
 
     <section id="mars">
         <h2 id="marsHeading">Mars Rover Images</h2>
+        <p id="currentSolDisplay">Sol:1000</p>
+        <div class="mars-buttons">
+            <button id="prevBtn"><i class="fa-solid fa-arrow-left" style="color: #111010;"></i></button>
+            <button id="nextBtn"><i class="fa-solid fa-arrow-right" style="color: #070707;"></i></button>
+        </div>
          <div id="marsImagesContainer" class="marsGallery"></div>
     </section>
 
@@ -53,6 +58,8 @@
       <section id="favorites">
         <h2 id="favoriteImagesHeading">Favourite Mars Images</h2>
         <div class="favoritesContent"></div>
+            <button onclick="clearFavorites()" id="clearFavouritesButton">Clear Favorites</button>
+
 
     </section>
 
@@ -60,7 +67,7 @@
 
     
 
-   <footer class="site-footer">
+   <footer class="footers">
   <div class="footer-content">
     <div id="footer"><p>Image Credit:NASA </p></div>
     <p>Space Explorer Project &copy; 2025</p>
