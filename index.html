@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Space Explorer</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuBx2WteRL7FFjoghUcBaeC7oNtTCMT1ZQlmBvgzkJT05BIzeSUb6TtRWe4Q3HVcXmNOU&usqp=CAU">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
      crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -15,7 +16,7 @@
 <body>
     <header>
         <ul>
-            
+
         </ul>
     </header>
     <div class="backgroundVideo">
@@ -33,23 +34,23 @@
 
    
 
-    <section id="apod">
+    <section id="apod" >
         <h1 id="apodHeading">Astronomy Picture of the Day</h1>
                <h2 id="title"></h2>
                  <p id="date"></p>
-             
-                
-         
-            <img id="apodImage" alt="NASA Astronomy Picture of the Day">
-          
+          <img id="apodImage" alt="NASA Astronomy Picture of the Day">
        <p id="description"></p>
-
         </div>
 
     </section>
 
     <section id="mars">
         <h2 id="marsHeading">Mars Rover Images</h2>
+        <p id="currentSolDisplay">Sol:1000</p>
+        <div class="mars-buttons">
+            <button id="prevBtn"><i class="fa-solid fa-arrow-left" style="color: #111010;"></i></button>
+            <button id="nextBtn"><i class="fa-solid fa-arrow-right" style="color: #070707;"></i></button>
+        </div>
          <div id="marsImagesContainer" class="marsGallery"></div>
     </section>
 
@@ -57,12 +58,27 @@
       <section id="favorites">
         <h2 id="favoriteImagesHeading">Favourite Mars Images</h2>
         <div class="favoritesContent"></div>
+            <button onclick="clearFavorites()" id="clearFavouritesButton">Clear Favorites</button>
+
 
     </section>
 
 
 
+    
+
+   <footer class="footers">
+  <div class="footer-content">
     <div id="footer"><p>Image Credit:NASA </p></div>
+    <p>Space Explorer Project &copy; 2025</p>
+    <p>Powered by <a href="https://api.nasa.gov/" target="_blank">NASA Open APIs</a></p>
+    <p>
+      Designed by Haba Haba Team ⭐
+      <a href="https://github.com/Pheobe-Apondi/nasaProject" target="_blank">GitHub</a>
+    </p>
+  </div>
+</footer>
+
 
 
     <script src="script.js"> </script>
