@@ -126,7 +126,7 @@ function displayFavorites(){
            card.classList.add('mars-card');
             const img = document.createElement ('img')
             img.src = photo.img_src;
-            img.alt = `Saved Mars Iamge - ${photo.rover.name}`
+            img.alt = `Saved Mars Image - ${photo.rover.name}`
             card.appendChild(img)
         favoritesContainer.appendChild(card)
 
