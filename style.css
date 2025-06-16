@@ -273,9 +273,14 @@ body{
 
 }
 
+@media (max-width: 912px)
+ {
+
+
 .content{
     position: relative;
     z-index: 3;
+
     height: 10vh;
     text-align: center;
     align-items: center;
@@ -400,6 +405,7 @@ body{
     border: 2px solid #fff;
 }
 
+
 #footer{
     background-color: black;
     color: white;
@@ -465,6 +471,35 @@ body{
 
 }
  
+.content{
+    height: 5vh;
+    text-align: center;
+
+    top: 20em;
+
+}
+#typing-text{
+    font-size: 2em;
+}
+#description{
+    width: 20em;
+    margin-right: 10em;
+}
+
+#apodHeading{
+   font-size: 2em;  
+}
+
+.marsGallery{
+    margin-left: 10em;
+    
+}
+.backgroundVideo{
+    width: 90%;
+}
+   
+ 
+}
 
 .footers {
   background: rgba(0, 0, 0, 0.85);
