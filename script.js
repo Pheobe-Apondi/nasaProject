@@ -32,7 +32,6 @@ async function fetchApod(){
 
 fetchApod()
 
-let isLoading = false; 
 async function fetchNextSolWithPhotos() {
 
     try{
@@ -51,7 +50,6 @@ async function fetchNextSolWithPhotos() {
     }catch(error){
         console.log("Error fetching Mars Images:", error);
          document.getElementById('marsImagesContainer').textContent = "Failed to load Mars Images. Please try again";
-         isLoading = false;
 
     }
     
@@ -86,7 +84,6 @@ function displayMarsImages(photos) {
     });
     document.getElementById('currentSolDisplay').textContent = `Sol: ${currentSol}`;
     currentSol++; 
-    isLoading = false;
 }
 
 
